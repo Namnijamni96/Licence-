@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application with License</title>
+    <style>
+        /* License Page Styling */
+        .license-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .license-header h1 {
+            text-align: center;
+            color: #00ffea;
+        }
+
+        .license-content {
+            margin-bottom: 20px;
+        }
+
+        .license-content h2 {
+            color: #00ffea;
+        }
+
+        .license-content p {
+            line-height: 1.6;
+        }
+
+        .license-footer {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .license-footer button {
+            background-color: #00ffea;
+            color: #111;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .license-footer button:hover {
+            background-color: #00b8a9;
+        }
+    </style>
+</head>
+<body>
+    <!-- License Page -->
+    <div id="license-page" class="license-container">
+        <header class="license-header">
+            <h1>License Agreement</h1>
+        </header>
+        <section class="license-content">
+            <h2>Introduction</h2>
+            <p>This License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and [namnijamni96] for the use of [tic tac toe cyberpunk].</p>
+
+            <h2>1. Grant of License</h2>
+            <p>[namnijamni96] grants you a non-exclusive, non-transferable license to use the Software solely for personal, non-commercial purposes. You may not use the Software for any commercial purposes without express written consent from [namnijamni96].</p>
+
+            <h2>2. Restrictions</h2>
+            <p>You may not:</p>
+            <ul>
+                <li>Modify, decompile, disassemble, reverse engineer, or create derivative works based on the Software.</li>
+                <li>Distribute, rent, lease, sublicense, or otherwise transfer the Software to any third party.</li>
+                <li>Claim ownership of or assert any intellectual property rights over the Software.</li>
+                <li>Use the Software in any manner that infringes on the rights of any third party or violates any laws or regulations.</li>
+            </ul>
+
+            <h2>3. Termination</h2>
+            <p>This Agreement is effective until terminated. It will terminate automatically without notice if you fail to comply with any provision of this Agreement. Upon termination, you must cease all use of the Software and destroy all copies in your possession.</p>
+
+            <h2>4. Disclaimer of Warranty</h2>
+            <p>The Software is provided "as is" without warranty of any kind. [namnijamni96] disclaims all warranties, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose.</p>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>[namnijamni96] shall not be liable for any damages arising from the use or inability to use the Software, even if [namnijamni96] has been advised of the possibility of such damages. This includes, but is not limited to, any direct, indirect, incidental, special, or consequential damages.</p>
+
+            <h2>6. Governing Law</h2>
+            <p>This Agreement shall be governed by and construed in accordance with the laws of [India/Uttar Pradesh].</p>
+        </section>
+        <footer class="license-footer">
+            <button onclick="acceptLicense()">Accept</button>
+            <button onclick="declineLicense()">Decline</button>
+        </footer>
+    </div>
+
+    <script>
+        function acceptLicense() {
+            alert('License accepted');
+            // Implement further functionality for accepting the license
+        }
+
+        function declineLicense() {
+            alert('License declined');
+            // Implement further functionality for declining the license
+        }
+    </script>
+</body>
+</html>
